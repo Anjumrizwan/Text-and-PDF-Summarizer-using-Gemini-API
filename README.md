@@ -31,32 +31,49 @@ Developed a Streamlit web application that automatically summarizes both uploade
 📂 Project Structure
 
 Text-Summarizer/
+
 │
+
 ├── text.py          # Main Streamlit application
+
 ├── .env             # Stores API Key 
+
 └── README.md
+
 
 🔑 Setup Instructions (Mac & Windows)
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/text-summarizer.git
+
 cd text-summarizer
 
+
 2️⃣ Install Dependencies
+
 pip install streamlit PyPDF2 google-generativeai python-dotenv
 
 
+
 3️⃣ Setup Gemini API Key
+
 Create a .env file in the project root:
+
 
 GOOGLE_API_KEY=your_api_key_here
 
 
+
 ⚠️ Never upload .env to GitHub
 
+
 4️⃣ Run the Application
+
 streamlit run text.py
 
+
 App will run at:
+
 http://localhost:8501
 
