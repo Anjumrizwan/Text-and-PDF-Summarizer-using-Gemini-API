@@ -5,18 +5,27 @@ Developed a Streamlit web application that automatically summarizes both uploade
 🚀 Features
 
 ✅ Upload and summarize PDF files
+
 ✅ Paste and summarize raw text
+
 ✅ Powered by Google Gemini AI
+
 ✅ Simple and interactive Streamlit UI
+
 ✅ Fast and accurate summaries
+
 ✅ Secure API key handling with .env
 
 🛠️ TECH STACK
 
 ✅ Python
+
 ✅ Streamlit – for frontend UI
+
 ✅ PyPDF2 – for PDF text extraction
+
 ✅ Google Generative AI (Gemini API) – for AI summarization
+
 ✅ python-dotenv – for environment variable management
 
 📂 Project Structure
